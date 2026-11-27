@@ -105,7 +105,7 @@ Open the exporter from `Plugins > Kwik Exporter` in Photoshop. The exporter need
         You can enter a URL like this in your browser on Windows:
 
       ```
-      solar2d://open?url=file://C:/Users/ymmtny/Documents/Solar2D/kwik-visual-code/develop/Solar2D/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
+      solar2d://open?url=file://<PATH_TO_HOME>/Documents/Solar2D/kwik-visual-code/develop/Solar2D/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
       ```
 
       > You can also create a web page that uses the Solar2D URL scheme to launch the simulator directly from your browser.

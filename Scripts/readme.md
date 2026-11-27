@@ -3,7 +3,7 @@
 syntax: solar2d://open?url=file://<absolute-path-to-main.lua>&skin=<skin-name>
 
 ```
-solar2d://open?url=file://C:/Users/ymmtny/Documents/GitHub/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
+solar2d://open?url=file://<PATH_TO_HOME>/Documents/GitHub/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
 ```
 
 ### Windows

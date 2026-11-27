@@ -104,7 +104,7 @@ kwik exporterにはこのリポジトリと同じコードベースが含まれ�
        Windowsでは下記のようなURLをブラウザで入力できます
 
       ```
-      solar2d://open?url=file://C:/Users/ymmtny/Documents/Solar2D/kwik-visual-code/develop/Solar2D/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
+      solar2d://open?url=file://<PATH_TO_HOME>/Documents/Solar2D/kwik-visual-code/develop/Solar2D/kwik5-project-template/Solar2D/main.lua&skin=KwikEditorLandscape
       ```
 
       > Solar2DのURLスキームを使って、ブラウザから直接Solar2D simulatorを起動するWebページも作成できます。
