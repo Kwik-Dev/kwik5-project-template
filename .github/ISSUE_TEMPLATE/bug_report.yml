@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in the the project template does not work as documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing: this is the repository for **the project template**. A question about *using* Kwik belongs
+        in the manual (https://github.com/Kwik-Dev/kwik5-document); a security problem goes to `SECURITY.md`, not here.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: The behaviour, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "`kwik version`, or the template tag `YYYYMMDD-NN` a project was created from"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options: [macOS (arm64), macOS (x86_64), Windows, Linux, iOS, Android, other]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Logs, screenshots, a minimal project. Please do not paste licence keys.

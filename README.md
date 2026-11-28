@@ -377,3 +377,26 @@ you may check the current version by
   ```
 
 Without --version arg, it will fetch the latest version and set it to `./lua_modules/kwiksher`.
+
+## What this repository is
+
+The **skeleton** every new book starts from: `Solar2D/` config and build settings, the page tree wire
+format, the Photoshop structure. `kwik new` clones it (branch `develop`), strips `.git`, `.github/`,
+`img/` and `UXP/kwik-exporter/`, installs the modules, and writes the project manifest.
+
+## Releases
+
+A release is a tag `YYYYMMDD-NN` plus `version.txt` and a source archive — **not** a built artifact.
+`kwik new` reads the tag; `requires.cli` in `version.txt` is a floor an older CLI refuses to install.
+The template ships no `Scripts/` (D19): every script lives in `kwik`.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+Questions about *using* Kwik belong in the manual: https://github.com/Kwik-Dev/kwik5-document. A vulnerability goes
+to [`SECURITY.md`](SECURITY.md), never to a public issue.
+
+## Licence
+
+MIT — see [`LICENSE`](LICENSE). Everything the customer runs is free and open source (D2). The paid
+product is **Kwik Cloud**: GPU time and the credit ledger, the one part a laptop cannot fake (D3).
